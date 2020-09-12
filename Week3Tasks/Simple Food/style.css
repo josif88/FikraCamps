@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: tahoma;
+    line-height: 1.5;
+  }
+  
+  a{
+      text-decoration: none;
+      color: #9fa1aa;
+  }
+  
+  span {
+    color: #9fa1aa;
+  }
+  
+  header {
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0 5px 5px #ededed;
+  }
+  
+  header span {
+    color: #000;
+    font-size: 24px;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+  }
+  header .content {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 25px 0;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header .content li {
+    margin-left: 10px;
+  }
+  
+  main .featured {
+    margin: 100px 0;
+  }
+  
+  main .featured .content {
+    width: 550px;
+  }
+  
+  .button {
+    width: 220px;
+    color: white;
+    padding: 10px;
+    background: #595c69;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  main .featured-posts {
+    background: #fff8f2;
+    margin-top: 150px;
+  }
+  .featured-posts .content {
+    position: relative;
+    top: -50px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  
+  .post-holder {
+    width: 340px;
+    margin: 0 0 50px 0;
+  }
+  
+  .post-thumb {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post-holder h3 {
+    margin: 10px 0;
+  }
+  .popular-recipes {
+    margin: 100px 0;
+  }
+  
+  .popular-recipes .title {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 25px;
+  }
+  .popular-recipes .content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+  }
+  
+  .subscribe {
+    background: #fff8f2;
+    padding: 50px 0;
+    margin-bottom: 100px;
+  }
+  
+  .subscribe .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .subscribe-message {
+    width: 560px;
+  }
+  
+  .subscribe .button {
+    background: #ffbf9d;
+    height: 30px;
+  }
+  
+  .author {
+    margin-bottom: 100px;
+  }
+  
+  .author .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .author .author-thumb {
+    border-radius: 5px;
+  }
+  footer {
+    padding: 50px;
+  }
+  footer .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
