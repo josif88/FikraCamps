@@ -32,4 +32,11 @@
         object-fit: cover;
     }
 
+    .overlay h1{
+        font-size:36px
+    }
+
+    .overlay p{
+        font-size:18px;
+    }
   }
