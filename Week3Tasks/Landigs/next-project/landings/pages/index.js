@@ -1,11 +1,11 @@
-import Header from "../components/Header";
+
 import Footer from "../components/Footer";
 import Card from "../components/Card";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      
       <section className="message">
         <h3>Lorem ipsum dolor sit</h3>
         <p>
