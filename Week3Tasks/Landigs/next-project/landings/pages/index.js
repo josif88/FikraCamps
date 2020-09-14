@@ -1,11 +1,11 @@
-
-import Footer from "../components/Footer";
-import Card from "../components/Card";
+import Header from "../components/header";
+import Footer from "../components/footer";
+import Card from "../components/card";
 
 export default function Home() {
   return (
     <>
-      
+      <Header />
       <section className="message">
         <h3>Lorem ipsum dolor sit</h3>
         <p>
