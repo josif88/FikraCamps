@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <section class="message">
+      <section className="message">
         <h3>Lorem ipsum dolor sit</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices
@@ -14,7 +14,7 @@ export default function Home() {
           ullamcorper felis. Nulla nibh ipsum, rutrum.
         </p>
       </section>
-      <section class="posts container">
+      <section className="posts container">
         <Card />
         <Card />
         <Card />
@@ -22,12 +22,12 @@ export default function Home() {
         <Card />
         <Card />
       </section>
-      <section class="featured-video">
+      <section className="featured-video">
         <img
-          class="featured-video-thumbnail"
+          className="featured-video-thumbnail"
           src="./assets/featured-video.png"
         />
-        <div class="featured-video-overlay">
+        <div className="featured-video-overlay">
           <div>
             <img src="./assets/icons/play.png" />
             <p>
@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section class="message">
+      <section className="message">
         <h3>Lorem ipsum dolor sit</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices
@@ -46,18 +46,18 @@ export default function Home() {
           ullamcorper felis. Nulla nibh ipsum, rutrum.
         </p>
       </section>
-      <section class="footer-massage">
-        <div class="left-column container">
+      <section className="footer-massage">
+        <div className="left-column container">
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.
           </p>
-          <div class="button">
+          <div className="button">
             <a>VIEW OUR PROJECTS</a>
           </div>
         </div>
-        <div class="right-column">
+        <div className="right-column">
           <img src="./assets/image.png" />
         </div>
       </section>
