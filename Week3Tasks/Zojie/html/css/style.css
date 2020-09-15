@@ -6,7 +6,10 @@
   .container {
     margin: auto 150px;
   }
-  
+  .topnav{
+    display: none;
+  }
+
   header .header-breadcrumb {
     justify-content: space-between;
     align-items: center;

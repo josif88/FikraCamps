@@ -1,31 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zojie</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header-breadcrumb container">
-        <img class="logo" src="./assets/logo.png" />
-        <div class="main-menu">
-          <ul>
-            <li>Home</li>
-            <li>Who We Are</li>
-            <li>Impacts</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-            <li>Login</li>
-          </ul>
-        </div>
-      </div>
-    </header>
+import Header from '../components/header';
+
+export default function Home() {
+  return <div>
+    <Header/>
+
     <main>
       <div class="cover">
-        <image src="assets/eduardo-prim-377966-unsplash.png" />
+        <image src="./assets/eduardo-prim-377966-unsplash.png" />
         <div class="overlay">
           <div class="container message-container">
             <small>AGRICULTURE FOR EVERYONE</small>
@@ -87,5 +68,6 @@
         </div>
       </section>
     </main>
-  </body>
-</html>
+
+  </div>;
+}
