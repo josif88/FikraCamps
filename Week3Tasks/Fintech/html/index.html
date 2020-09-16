@@ -2,63 +2,103 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Fin Tech</title>
 </head>
 
 <body>
+
     <main>
         <header>
-            <div class="logo">
-                <img src="./assets/logo.png" />
+
+            <div class="topnav" id="myTopnav">
+                <a href="#" class="active">
+                    <img class="logo" src="./assets/logo.png" /></a>
+                <a href="#">Products</a>
+                <a href="#">Use Cases</a>
+                <a href="#">Docs</a>
+                <a href="#">Pricing</a>
+                <a href="#">About us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
-            <div class="main-menu">
-                <ul>
-                    <li>
-                        Products
-                    </li>
-                    <li>
-                        Use Cases
-                    </li>
-                    <li>
-                        Docs
-                    </li>
-                    <li>
-                        Pricing
-                    </li>
-                    <li>
-                        About us
-                    </li>
-                </ul>
+
+            <div class="breadcrumb container">
+                <div class="logo">
+                    <img src="./assets/logo.png" />
+                </div>
+                <div class="main-menu">
+                    <ul>
+                        <li>Products</li>
+                        <li>Use Cases</li>
+                        <li>Docs</li>
+                        <li>Pricing</li>
+                        <li>About us</li>
+                    </ul>
+                </div>
             </div>
         </header>
         <section>
-            <div class='cover'>
+            <div class="cover">
+                <div class="overlay">
+                    <div class="container">
+                        <div>
+                            <h1>
+                                Empowering your everyday transactions making payment processing
+                                easy
+                            </h1>
+                            <div class="button">Get Started</div>
+                        </div>
+                    </div>
 
-            </div>
-            <div class='overlay'>
-                <h1>Empowering your everyday transactions making payment processing easy</h1>
-                <div class='button'>Get Started</div>
-            </div>
-        </section>
-        <section class='featured-posts'>
-            <div class='card'>
-                <img src="./assets/scott-webb-67607-unsplash.png" />
-                <div class='holder'>
-                    <h3>
-                        Reinventing Benin City
-                    </h3>
-                    <p>
-                        In making payment easier we
-                        reinvented Nigeria's vibrant city.
-                    </p>
+                    <section class="featured-posts">
+                        <div class="card">
+                            <img src="./assets/scott-webb-67607-unsplash.png" />
+                            <div class="holder">
+                                <h3>Reinventing Benin City</h3>
+                                <p>
+                                    In making payment easier we reinvented Nigeria's vibrant city.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" id='c2'>
+                            <img src="./assets/02.png" />
+                            <div class="holder">
+                                <h3>The BOO Project</h3>
+                                <p>
+                                    The Bringing Online Open (BOO) project.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" id='c3'>
+                            <img src="./assets/03.png" />
+                            <div class="holder">
+                                <h3>Improved dev enviroment</h3>
+                                <p>
+                                    Integration and use of our API has been updated (12.8)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="arrows"><img src="./assets/left.png" /><img src="./assets/right.png" /></div>
+                    </section>
                 </div>
-
-            </div>
         </section>
     </main>
-
 </body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 
 </html>
