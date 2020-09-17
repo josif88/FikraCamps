@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.container {
+   margin:auto;
+}
+
+.input-box {
+  background: yellow;
+  border-radius: 0px;
+  margin: 25px 0;
+  width: 300px;
+  height: 300px;
+  box-shadow: 14px 11px #eaea43;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: inline-block;
+
+  .top-decoration {
+    height: 50px;
+    background: #f8ff88;
+    border-top-right-radius: 26px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    color: #dcdc2d;
+
+    button {
+      width: 50px;
+      text-align: center;
+      background: #f8ff88;
+      color: #000;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: 700;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+    }
+  }
+
+  .holder {
+    padding: 10px;
+  }
+
+  textarea {
+    padding: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #2a2ab3;
+    min-width: 250px;
+    min-height: 250px;
+    resize: none;
+    overflow: hidden;
+  }
+}
+
+.old-todo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+}
+
+.added {
+  box-shadow: none;
+  margin:0;
+}
+
+
+    
