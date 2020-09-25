@@ -1,19 +1,20 @@
 import Link from "next/link";
-
-const Card = () => {
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import moment from "moment";
+const Card = ({ title, athor, createdAt, image, id }) => {
   return (
     <>
-      <div class="post-card">
-        <div class="post-thumbnail">
-          <img class="img" src="./images/post-thump.png" />
+      <div className="post-card">
+        <div className="post-thumbnail">
+          <LazyLoadImage className="img" src={image} />
         </div>
-        <h3>FIRST BLOG TITL…</h3>
-        <span>By FikraSpace</span>
-        <div class="post-info">
-          <Link href="article">
+        <h3>{title}</h3>
+        <span>{athor}</span>
+        <div className="post-info">
+          <Link href={`article/${id}`}>
             <a>Reade article</a>
           </Link>
-          <span>June 19, 2020</span>
+          <span>{moment(createdAt).format('ll')}</span>
         </div>
       </div>
     </>

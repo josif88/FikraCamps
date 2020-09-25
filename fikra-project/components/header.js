@@ -2,8 +2,8 @@ const Header = () => {
   return (
     <>
       <header>
-        <div class="container">
-          <div class="content">
+        <div className="container">
+          <div className="content">
             <h1>Fikra Camps</h1>
             <ul>
               <li>

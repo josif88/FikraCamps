@@ -2,7 +2,8 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Card from "../components/card";
 
-export default function Home() {
+export default function Home(props) {
+  console.log(props);
   return (
     <div>
       <Header />
@@ -17,13 +18,23 @@ export default function Home() {
           </div>
         </section>
         <section className="featured-posts container">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {props.blog.articles.map((article) => (
+            <Card {...article} />
+          ))}
         </section>
       </main>
       <Footer />
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const res = await fetch("https://mashriq.herokuapp.com/dash/v1/articles");
+  const blog = await res.json();
+
+  return {
+    props: {
+      blog,
+    },
+  };
 }

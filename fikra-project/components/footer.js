@@ -2,21 +2,18 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div class="container">
-          <div class="content">
+        <div className="container">
+          <div className="content">
             <small>All Rights Reserved - FikraCamps 2020</small>
-            <div class="social-network-icons">
+            <div className="social-network-icons">
               <a href="#">
-                {" "}
-                <img class="icon" src="./images/1.png" />
+                <img className="icon" src="./images/1.png" />
               </a>
               <a href="#">
-                {" "}
-                <img class="icon" src="./images/2.png" />
+                <img className="icon" src="./images/2.png" />
               </a>
               <a href="#">
-                {" "}
-                <img class="icon" src="./images/3.png" />
+                <img className="icon" src="./images/3.png" />
               </a>
             </div>
           </div>
